@@ -1,0 +1,7 @@
+{
+  "name": "walk project",
+  "db": {
+    "address": "mongodb://127.0.0.1:27017/walkproject"
+  },
+  "jwt_key": "sdfjhj234t2fwd0982i34rf23feoijf042SDF"
+}
