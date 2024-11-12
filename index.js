@@ -34,7 +34,7 @@ app.use(express.urlencoded({extended: true }));
 // app.use(express.static('public'));
 
 mongoose
-.connect(process.env.MONGO_URL,{
+.connect(process.env.DATABASE_URL,{
   useNewUrlParser:true , useUnifiedTopology:true
 })
 // mongoose
